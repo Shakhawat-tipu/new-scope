@@ -1,32 +1,146 @@
+/* global css */
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-/* Footer styles */
-.footer-field{
-    background-color: #151414;
-    padding: 130px;
+/* header section styles */
+header{
+    text-align: right;
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    padding: 250px 150px;
 }
+.header-title{
+    color: aliceblue;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.header-description{
+    color: aliceblue;
+    margin-left: 60%;
+    margin-bottom: 30px;
+}
+.prymary-btn{
+    background-color: rgb(249, 249, 255);
+    color: rgb(16, 125, 221);
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+/* fail section style */
+.fail-section{
+    display: flex;
+    gap: 100px;
+    padding-top: 100px;
+}
+.fail-picture{
+    padding: 40px 100px;
+}
+.fail-description{
+    text-align: left;
+    padding-top: 250px;
+    padding-right: 200px;
+}
+.fail-description p{
+    margin-top: 20px;
+}
+span{
+    color: green;
+}
+.title{
+    font-size: 35px;
+}
+/* learn section styles */
+.learn-section{
+    display: flex;
+    gap: 100px;
+    padding-top: 80px;   
+}
+.learn-description{
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+.learn-picture{
+    padding: 40px 100px;
+}
+.learn-description p{
+    margin-top: 20px;
+}
+/* plan section styles */
+.plan-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 40px;
+}
+.plan-title{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* call section styles */
+.call-section{
+    background-image: url(/images/watch.png);
+    background-position: center;
+    margin: 80px 150px;
+    padding: 40px 30px;
+    background-repeat: no-repeat, repeat;
+    background: linear-gradient(to right, #490cf0 0%, rgb(218, 246, 80) 100%);
+    border-radius: 10px;
+}
+.call-title{
+    font-size: 35px;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
 .footer-description{
     display: flex;
+    gap: 200px;
+    background-color: #151414;
     color: white;
-    width: 485px;
-    height: 387px;
+    padding: 130px 200px;
+}
+
+.footer-future a{
+    margin-right: 20px;
+}
+.footer-title{
+    text-align: left;
+    font-size: 40px;
+}
+.footer-text{
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 .footer-subscription{
-    width: 325px;
+    width: 300px;
     height: 225;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 30px;
 }
 #footer-mail{
     border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    font-size: 18px;
+    color: white;
     background-color: #151414;
 }
 .subscribe-btn{
-    border: none;
+    border: 2px;
+    border-color: aliceblue;
     color: antiquewhite;
     border-radius: 5px;
     background-color: blue;
+    padding: 10px 15px;
 }
