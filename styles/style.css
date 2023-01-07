@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Footer styles */
+.footer-field{
+    background-color: #151414;
+    padding: 130px;
+}
+.footer-description{
+    display: flex;
+    color: white;
+    width: 485px;
+    height: 387px;
+}
+.footer-subscription{
+    width: 325px;
+    height: 225;
+}
+#footer-mail{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #151414;
+}
+.subscribe-btn{
+    border: none;
+    color: antiquewhite;
+    border-radius: 5px;
+    background-color: blue;
+}
